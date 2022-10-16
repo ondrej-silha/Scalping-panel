@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9xvonl2NdBVEpKNtCjJK2/+IQ942ysDp4MHh0d82QW+WP0Jl8m81+kiOckGa2wjGQ7JCRItXcjNh7t8l9DYp+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ondre\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\ScalpingPanel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ondre\\.nuget\\packages\\ctrader.automate\\1.0.2\\ctrader.automate.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
