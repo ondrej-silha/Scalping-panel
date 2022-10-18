@@ -21,6 +21,8 @@ namespace cAlgo
         private int pendingTradeType;
         private bool pendingTradeOpen = false;
         private Button pendingButton;
+
+        private bool isKeyboardActive = false;
         public TextBlock todayTotal;
         public TextBlock todayTotalPercent;
         public TextBlock todayActual;
@@ -34,32 +36,36 @@ namespace cAlgo
         private readonly Robot _robot;
         private readonly Symbol _symbol;
 
-        public TradingPanel(Robot robot, Symbol symbol, double defaultLots, double defaultStopLossPips, double defaultTakeProfitPips)
+        public TradingPanel(Robot robot, Symbol symbol, double defaultLots, double defaultStopLossPips, double defaultTakeProfitPips, bool keyboardActive)
         {
             _robot = robot;
             _symbol = symbol;
             AddChild(CreateTradingPanel(defaultLots, defaultStopLossPips, defaultTakeProfitPips));
             _robot.Chart.MouseDown += Chart_MouseDown;
             _robot.Chart.KeyDown += Chart_KeyDown;
+            this.isKeyboardActive = keyboardActive;
         }
 
         private void Chart_KeyDown(ChartKeyboardEventArgs obj)
         {
-            if (obj.Key == Key.NumPad0)
+            if (this.isKeyboardActive)
             {
-                CloseAllOpen();
-            }
-            if (obj.Key == Key.Decimal)
-            {
-                CloseAllPending();
-            }
-            if (obj.Key == Key.NumPad4)
-            {
-                MarketBuy();
-            }
-            if (obj.Key == Key.NumPad6)
-            {
-                MarketSell();
+                if (obj.Key == Key.NumPad0)
+                {
+                    CloseAllOpen();
+                }
+                if (obj.Key == Key.Decimal)
+                {
+                    CloseAllPending();
+                }
+                if (obj.Key == Key.NumPad4)
+                {
+                    MarketBuy();
+                }
+                if (obj.Key == Key.NumPad6)
+                {
+                    MarketSell();
+                }
             }
         }
 
@@ -86,7 +92,7 @@ namespace cAlgo
 
             var header = new TextBlock
             {
-                Text = "Scalping panel",
+                Text = "Trading panel",
                 Margin = "10 7",
                 Style = Styles.CreateHeaderStyle()
             };
@@ -152,13 +158,6 @@ namespace cAlgo
             var totalOpenPercent = CreateLabeTodayTotalPercent("0");
             grid.AddChild(totalOpenPercent, 14, 2);
             grid.Rows[15].SetHeightInPixels(5);
-
-            var actualEarnLabel = CreateLabel("Aktuálně");
-            grid.AddChild(actualEarnLabel, 16, 0);
-            grid.Rows[17].SetHeightInPixels(5);
-
-            var actual = CreateLabelActual("0");
-            grid.AddChild(actual, 18, 0);
 
             contentPanel.AddChild(grid);
 

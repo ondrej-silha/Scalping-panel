@@ -28,11 +28,14 @@ namespace cAlgo
 
         [Parameter("SL pipů", Group = "Default trade parameters", DefaultValue = 300)]
         public double DefaultStopLossPips { get; set; }
-        
+
+        [Parameter("Obchodování z klávesnice", Group = "Default trade parameters", DefaultValue = false)]
+        public bool KeyboardActive { get; set; }
+
 
         protected override void OnStart()
         {
-            tradingPanel = new TradingPanel(this, Symbol, DefaultLots, DefaultStopLossPips, DefaultTakeProfitPips);
+            tradingPanel = new TradingPanel(this, Symbol, DefaultLots, DefaultStopLossPips, DefaultTakeProfitPips, KeyboardActive);
 
             var border = new Border
             {
@@ -74,20 +77,7 @@ namespace cAlgo
                 tradingPanel.todayTotalPercent.ForegroundColor = Color.Green;
             if (percent < 0)
                 tradingPanel.todayTotalPercent.ForegroundColor = Color.Red;
-
-            double actualEarn = 0; 
-            foreach (var position in Positions)
-            {
-                if (position.SymbolName == Symbol.Name)
-                {
-                    actualEarn += position.GrossProfit;
-                }
-            }
-            tradingPanel.todayActual.Text = Math.Round(actualEarn).ToString();
-            if (actualEarn > 0)
-                tradingPanel.todayActual.ForegroundColor = Color.Green;
-            if (actualEarn < 0)
-                tradingPanel.todayActual.ForegroundColor = Color.Red;
+            
         }
     }
 }

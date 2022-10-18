@@ -70,6 +70,13 @@
         "PropertyName": "DefaultStopLossPips",
         "FriendlyName": "SL pipů",
         "GroupName": "Default trade parameters"
+      },
+      {
+        "DefaultValue": false,
+        "ParameterType": "Boolean",
+        "PropertyName": "KeyboardActive",
+        "FriendlyName": "Obchodování z klávesnice",
+        "GroupName": "Default trade parameters"
       }
     ],
     "Capabilities": [],
