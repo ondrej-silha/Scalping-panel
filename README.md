@@ -13,5 +13,7 @@ Futures
 - Display today profit 
 - Quick keyboard trading by specific keys
 
-
-![This is an image](https://github.com/ondrej-silha/Scalping-panel/blob/main/images/preview.PNG?raw=true)
+Preview
+-
+![preview](https://github.com/ondrej-silha/Scalping-panel/blob/main/images/preview.PNG?raw=true)
+![parameters](https://github.com/ondrej-silha/Scalping-panel/blob/main/images/parameters.jpg?raw=true)
