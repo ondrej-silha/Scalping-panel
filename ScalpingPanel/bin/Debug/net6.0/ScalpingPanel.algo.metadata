@@ -25,8 +25,8 @@
         "DefaultValue": 1,
         "ParameterType": "Enum",
         "PropertyName": "PanelVerticalAlignment",
-        "FriendlyName": "Vertikální umístění",
-        "GroupName": "Pozice panelu"
+        "FriendlyName": "Vertical position",
+        "GroupName": "Panel position"
       },
       {
         "EnumValues": {
@@ -38,8 +38,8 @@
         "DefaultValue": 1,
         "ParameterType": "Enum",
         "PropertyName": "PanelHorizontalAlignment",
-        "FriendlyName": "Horizontální umístění",
-        "GroupName": "Pozice panelu"
+        "FriendlyName": "Horizontal position",
+        "GroupName": "Panel position"
       },
       {
         "MinValue": -1.7976931348623157E+308,
@@ -48,8 +48,8 @@
         "DefaultValue": 0.1,
         "ParameterType": "Double",
         "PropertyName": "DefaultLots",
-        "FriendlyName": "Velikost pozice",
-        "GroupName": "Parametry pozice"
+        "FriendlyName": "Order size",
+        "GroupName": "Order parameters"
       },
       {
         "MinValue": -1.7976931348623157E+308,
@@ -58,8 +58,8 @@
         "DefaultValue": 30.0,
         "ParameterType": "Double",
         "PropertyName": "DefaultTakeProfitPips",
-        "FriendlyName": "TP pipů",
-        "GroupName": "Parametry pozice"
+        "FriendlyName": "TP pips",
+        "GroupName": "Order parameters"
       },
       {
         "MinValue": -1.7976931348623157E+308,
@@ -68,8 +68,8 @@
         "DefaultValue": 30.0,
         "ParameterType": "Double",
         "PropertyName": "DefaultStopLossPips",
-        "FriendlyName": "SL pipů",
-        "GroupName": "Parametry pozice"
+        "FriendlyName": "SL pips",
+        "GroupName": "Order parameters"
       },
       {
         "MinValue": -1.7976931348623157E+308,
@@ -78,7 +78,7 @@
         "DefaultValue": 0.0,
         "ParameterType": "Double",
         "PropertyName": "DefaultTrailingPips",
-        "FriendlyName": "Trailing stop pipů",
+        "FriendlyName": "Trailing stop pips",
         "GroupName": "Trailing stop"
       },
       {
@@ -88,15 +88,15 @@
         "DefaultValue": 0.0,
         "ParameterType": "Double",
         "PropertyName": "DefaultTrailingDelayPips",
-        "FriendlyName": "Odložený trailing stop pipů",
+        "FriendlyName": "Trailing stop dealy pips",
         "GroupName": "Trailing stop"
       },
       {
         "DefaultValue": false,
         "ParameterType": "Boolean",
         "PropertyName": "KeyboardActive",
-        "FriendlyName": "Obchodování z klávesnice",
-        "GroupName": "Obchodování z klávesnice"
+        "FriendlyName": "Quick keyboard trading",
+        "GroupName": "Keyboard trading"
       },
       {
         "EnumValues": {
@@ -142,8 +142,8 @@
         "DefaultValue": 23,
         "ParameterType": "Enum",
         "PropertyName": "KeyMarketBuy",
-        "FriendlyName": "Klávesa pro market BUY",
-        "GroupName": "Obchodování z klávesnice"
+        "FriendlyName": "Key for MARKET BUY",
+        "GroupName": "Keyboard trading"
       },
       {
         "EnumValues": {
@@ -189,8 +189,8 @@
         "DefaultValue": 19,
         "ParameterType": "Enum",
         "PropertyName": "KeyMarketSell",
-        "FriendlyName": "Klávesa pro market SELL",
-        "GroupName": "Obchodování z klávesnice"
+        "FriendlyName": "Key for MARKET SELL",
+        "GroupName": "Keyboard trading"
       },
       {
         "EnumValues": {
@@ -236,8 +236,8 @@
         "DefaultValue": 3,
         "ParameterType": "Enum",
         "PropertyName": "KeyMarketClose",
-        "FriendlyName": "Klávesa pro uzavření za MARKET",
-        "GroupName": "Obchodování z klávesnice"
+        "FriendlyName": "Key for close all by MARKET",
+        "GroupName": "Keyboard trading"
       },
       {
         "EnumValues": {
@@ -283,8 +283,8 @@
         "DefaultValue": 24,
         "ParameterType": "Enum",
         "PropertyName": "KeyPendingCancel",
-        "FriendlyName": "Klávesa pro zrušení čekajících pokynů",
-        "GroupName": "Obchodování z klávesnice"
+        "FriendlyName": "Key for cancel pending",
+        "GroupName": "Keyboard trading"
       }
     ],
     "Capabilities": [],

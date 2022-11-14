@@ -124,7 +124,7 @@ namespace cAlgo
 
             var header = new TextBlock
             {
-                Text = "Trading panel",
+                Text = "Scalping panel",
                 Margin = "10 7",
                 Style = Styles.CreateHeaderStyle()
             };
@@ -160,38 +160,38 @@ namespace cAlgo
             grid.AddChild(pendingBuyButton, 2, 2);
             grid.Rows[3].SetHeightInPixels(5);
 
-            var closePendingButton = CreateButton("Zavřít všechny čekající", Styles.CreateCloseButtonStyle(), actionClosePending);
+            var closePendingButton = CreateButton("Close all pendings", Styles.CreateCloseButtonStyle(), actionClosePending);
             grid.AddChild(closePendingButton, 4, 0, 1, 3);
 
             grid.Rows[5].SetHeightInPixels(5);
 
-            var closeAllButton = CreateButton("Zavřít všechny otevřené", Styles.CreateCloseButtonStyle(), actionCloseOpen);
+            var closeAllButton = CreateButton("Close all by MARKET", Styles.CreateCloseButtonStyle(), actionCloseOpen);
             grid.AddChild(closeAllButton, 6, 0, 1, 3);
 
             grid.Rows[7].SetHeightInPixels(8);
 
-            var lotsInput = CreateInputWithLabel("Velikost pozice", defaultLots.ToString("F2"), LotsInputKey);
+            var lotsInput = CreateInputWithLabel("Order size", defaultLots.ToString("F2"), LotsInputKey);
             grid.AddChild(lotsInput, 8, 0);
 
             grid.Rows[9].SetHeightInPixels(8);
-            var takeProfitInput = CreateInputWithLabel("TP (pipů)", defaultTakeProfitPips.ToString("F1"), TakeProfitInputKey);
+            var takeProfitInput = CreateInputWithLabel("TP (pips)", defaultTakeProfitPips.ToString("F1"), TakeProfitInputKey);
             grid.AddChild(takeProfitInput, 10, 0);
 
-            var stopLossInput = CreateInputWithLabel("SL (pipů)", defaultStopLossPips.ToString("F1"), StopLossInputKey);
+            var stopLossInput = CreateInputWithLabel("SL (pips)", defaultStopLossPips.ToString("F1"), StopLossInputKey);
             grid.AddChild(stopLossInput, 10, 2);
             grid.Rows[11].SetHeightInPixels(8);
 
             var breakEvenInput = CreateTrailingWithLabel("Trailing stop", trailingPips.ToString("F1"), BreakEvenInputKey);
             grid.AddChild(breakEvenInput, 12, 0);
 
-            var breakEventDelayInput = CreateTrailingDelayWithLabel("Odložený trail.", trailingDelayPips.ToString("F1"), BreakEventDelayInputKey);
+            var breakEventDelayInput = CreateTrailingDelayWithLabel("Trail. delay.", trailingDelayPips.ToString("F1"), BreakEventDelayInputKey);
             grid.AddChild(breakEventDelayInput, 12, 2);
             grid.Rows[13].SetHeightInPixels(8);
 
-            var totalOpenLabel = CreateLabel("Zisk dnes");
+            var totalOpenLabel = CreateLabel("Today earn");
             grid.AddChild(totalOpenLabel, 14, 0);
 
-            var totalOpenPercentLabel = CreateLabel("Zisk dnes %");
+            var totalOpenPercentLabel = CreateLabel("Today earn %");
             grid.AddChild(totalOpenPercentLabel, 14, 2);
             grid.Rows[15].SetHeightInPixels(5);
 

@@ -9,40 +9,40 @@ namespace cAlgo
     {
         private TradingPanel tradingPanel;
 
-        [Parameter("Vertikální umístění", Group = "Pozice panelu", DefaultValue = VerticalAlignment.Top)]
+        [Parameter("Vertical position", Group = "Panel position", DefaultValue = VerticalAlignment.Top)]
         public VerticalAlignment PanelVerticalAlignment { get; set; }
 
-        [Parameter("Horizontální umístění", Group = "Pozice panelu", DefaultValue = HorizontalAlignment.Left)]
+        [Parameter("Horizontal position", Group = "Panel position", DefaultValue = HorizontalAlignment.Left)]
         public HorizontalAlignment PanelHorizontalAlignment { get; set; }
 
-        [Parameter("Velikost pozice", Group = "Parametry pozice", DefaultValue = 0.1)]
+        [Parameter("Order size", Group = "Order parameters", DefaultValue = 0.1)]
         public double DefaultLots { get; set; }
 
-        [Parameter("TP pipů", Group = "Parametry pozice", DefaultValue = 30)]
+        [Parameter("TP pips", Group = "Order parameters", DefaultValue = 30)]
         public double DefaultTakeProfitPips { get; set; }
 
-        [Parameter("SL pipů", Group = "Parametry pozice", DefaultValue = 30)]
+        [Parameter("SL pips", Group = "Order parameters", DefaultValue = 30)]
         public double DefaultStopLossPips { get; set; }
 
-        [Parameter("Trailing stop pipů", Group = "Trailing stop", DefaultValue = 0)]
+        [Parameter("Trailing stop pips", Group = "Trailing stop", DefaultValue = 0)]
         public double DefaultTrailingPips { get; set; }
 
-        [Parameter("Odložený trailing stop pipů", Group = "Trailing stop", DefaultValue = 0)]
+        [Parameter("Trailing stop dealy pips", Group = "Trailing stop", DefaultValue = 0)]
         public double DefaultTrailingDelayPips { get; set; }
 
-        [Parameter("Obchodování z klávesnice", Group = "Obchodování z klávesnice", DefaultValue = false)]
+        [Parameter("Quick keyboard trading", Group = "Keyboard trading", DefaultValue = false)]
         public bool KeyboardActive { get; set; }
 
-        [Parameter("Klávesa pro market BUY", Group = "Obchodování z klávesnice", DefaultValue = Tradingkey.w)]
+        [Parameter("Key for MARKET BUY", Group = "Keyboard trading", DefaultValue = Tradingkey.w)]
         public Tradingkey KeyMarketBuy { get; set; }
 
-        [Parameter("Klávesa pro market SELL", Group = "Obchodování z klávesnice", DefaultValue = Tradingkey.s)]
+        [Parameter("Key for MARKET SELL", Group = "Keyboard trading", DefaultValue = Tradingkey.s)]
         public Tradingkey KeyMarketSell { get; set; }
 
-        [Parameter("Klávesa pro uzavření za MARKET", Group = "Obchodování z klávesnice", DefaultValue = Tradingkey.c)]
+        [Parameter("Key for close all by MARKET", Group = "Keyboard trading", DefaultValue = Tradingkey.c)]
         public Tradingkey KeyMarketClose { get; set; }
 
-        [Parameter("Klávesa pro zrušení čekajících pokynů", Group = "Obchodování z klávesnice", DefaultValue = Tradingkey.x)]
+        [Parameter("Key for cancel pending", Group = "Keyboard trading", DefaultValue = Tradingkey.x)]
         public Tradingkey KeyPendingCancel { get; set; }
 
 
