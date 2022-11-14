@@ -13,6 +13,10 @@ Futures
 - Display today profit 
 - Quick keyboard trading by specific keys
 
+Release
+-
+Binary file for download: https://github.com/ondrej-silha/Scalping-panel/releases/tag/Release
+
 Preview
 -
 ![preview](https://github.com/ondrej-silha/Scalping-panel/blob/main/images/preview.PNG?raw=true)
