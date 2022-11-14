@@ -1,6 +1,6 @@
-Scalping panel for Ctrader
+Scalping panel for cTrader
 =
-Easy order entry panel for the ctrader trading platform. The panel will enable quick placement of a pending order by clicking directly on a chart with predefined stoploss and take profit.
+Easy order entry panel for the cTrader trading platform. The panel will enable quick placement of a pending order by clicking directly on a chart with predefined stoploss and take profit.
 
 Futures
 -
