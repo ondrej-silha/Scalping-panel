@@ -10,3 +10,15 @@ C:\Users\ondre\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\De
 C:\Users\ondre\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\refint\ScalpingPanel.dll
 C:\Users\ondre\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.pdb
 C:\Users\ondre\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ref\ScalpingPanel.dll
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\bin\Debug\net6.0\ScalpingPanel.deps.json
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\bin\Debug\net6.0\ScalpingPanel.dll
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\bin\Debug\net6.0\ScalpingPanel.pdb
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.csproj.AssemblyReference.cache
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.AssemblyInfoInputs.cache
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.AssemblyInfo.cs
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.csproj.CoreCompileInputs.cache
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.dll
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\refint\ScalpingPanel.dll
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ScalpingPanel.pdb
+C:\Users\Ondřej\Documents\cAlgo\Sources\Robots\ScalpingPanel\ScalpingPanel\obj\Debug\net6.0\ref\ScalpingPanel.dll

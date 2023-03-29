@@ -80,6 +80,9 @@ namespace cAlgo
 
                 Tradingkey pressedKey = GetKeyAssigment(obj.Key);
 
+                if (pressedKey.ToString() == "NONE")
+                    return;
+
                 if (pressedKey == KeyMarketBuy)
                 {
                     MarketBuy();

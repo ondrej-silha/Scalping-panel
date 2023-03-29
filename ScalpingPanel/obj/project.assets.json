@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "cTrader.Automate/1.0.2": {
+      "cTrader.Automate/1.0.6": {
         "type": "package",
         "compile": {
           "lib/net6.0/cAlgo.API.dll": {
@@ -22,17 +22,17 @@
     }
   },
   "libraries": {
-    "cTrader.Automate/1.0.2": {
-      "sha512": "UQKGzw12ZQNhJR/gwBEYPxS3VnYSjARw+pffdPO1Kku1+MjKrX2cXihwCWgVg3yPUHdKr48Vk2WK1dl2jAcriQ==",
+    "cTrader.Automate/1.0.6": {
+      "sha512": "WmiMvQ01d4ZiLZC1cJiNnfLxxdA01B+QAXVcMC2RhMBg3xIMgqiM0cuvLiSqjbm+NXxWm8mVf5UqVpU8sGwlXw==",
       "type": "package",
-      "path": "ctrader.automate/1.0.2",
+      "path": "ctrader.automate/1.0.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/cTrader.Automate.props",
         "build/cTrader.Automate.targets",
-        "ctrader.automate.1.0.2.nupkg.sha512",
+        "ctrader.automate.1.0.6.nupkg.sha512",
         "ctrader.automate.nuspec",
         "eula.md",
         "icon.png",
@@ -77,23 +77,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ondre\\.nuget\\packages\\": {},
+    "C:\\Users\\Ondřej\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ondre\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\ScalpingPanel.csproj",
+      "projectUniqueName": "C:\\Users\\Ondřej\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\ScalpingPanel.csproj",
       "projectName": "ScalpingPanel",
-      "projectPath": "C:\\Users\\ondre\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\ScalpingPanel.csproj",
-      "packagesPath": "C:\\Users\\ondre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ondre\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\obj\\",
+      "projectPath": "C:\\Users\\Ondřej\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\ScalpingPanel.csproj",
+      "packagesPath": "C:\\Users\\Ondřej\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ondřej\\Documents\\cAlgo\\Sources\\Robots\\ScalpingPanel\\ScalpingPanel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ondre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ondřej\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -102,7 +102,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -142,7 +141,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
